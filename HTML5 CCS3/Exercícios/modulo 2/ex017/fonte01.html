@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+            /*
+            Medidas Absolutas 
+            cm (centrimetro), mm (Milimetros), in (polegada), px (pixel), pt (ponto), pc (paica)
+
+            Medidadas Relativas
+            em (medidade relativa ao tamanho atual), ex (relativo altura X), rem (tipo em , relativo ao ruth ) , vw (viewport), vh (altura da vw), % 
+
+            16px geralmente = 1em
+
+            */
+
+            font-size: 1em;
+
+            /*font-weight: bold;
+            font-style: italic;
+            text-decoration: underline; */
+
+            /* lighter normal bold bolder*/
+
+            /*
+            weight (peso)
+            whidht (largura)
+            height (altura)
+            */
+        }
+
+            h1 {
+                /* 
+                shorthand font
+                - font-style → font-weight → font size → font-family  → sempre usar essa ordem */
+                font: italic bolder 3em 'Work Sans', sans-serif 
+            }
+
+            h2 {
+                font: bold 2em 'Work Sans'
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora voluptatem incidunt? Delectus in earum mollitia, nesciunt cupiditate accusamus voluptatem soluta quibusdam possimus optio, corporis obcaecati natus impedit odio. Dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod ratione commodi distinctio ullam atque, quos voluptatem, nemo suscipit voluptas, expedita animi! Ipsam id eum ex suscipit expedita laborum incidunt laudantium!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quisquam debitis nisi. Consequuntur maxime aspernatur, nemo sit impedit corrupti dolores quas omnis tempore ratione ex veniam ipsa numquam praesentium iusto! </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus optio, in consequuntur velit harum omnis, molestias odio magni tempora officia quasi incidunt. Voluptate tempora et rerum inventore id doloribus.  </p>
+</body>
+</html>
